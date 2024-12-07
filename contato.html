@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- importa o style.css -->
+    <title>Contato</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <!-- Foram criados links para acesso dos conteudos -->
+          <li><a href="index.html">Sobre Mim</a></li>
+          <li><a href="formacao.html">Formação e Idiomas</a></li>
+          <li><a href="portfolio.html">Portfólio</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="contact">
+      <h1>Contato</h1>
+      <!-- Título -->
+      <form action="#" method="POST">
+        <label for="name">Nome:</label>
+        <!-- Criação de inputs para a pessoa entrar em contato, os campos são obrigatórios para o envio -->
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Mensagem:</label>
+        <!-- Criação de area de texto para a mensagem -->
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Enviar</button>
+        <!-- Botão enviar -->
+      </form>
+    </section>
+
+    <footer>
+      <!-- O rodapé é apenas um charme para o site ficar mais visual -->
+      <p>UNINTER - Portfólio pessoal</p>
+    </footer>
+  </body>
+</html>
